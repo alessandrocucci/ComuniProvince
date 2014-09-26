@@ -34,7 +34,7 @@ public class Provincia {
 				String nuts10 = province.get("Codice NUTS1 2010");
 				provincedb.get(2).add(nuts10);
 				
-				String ripgeoM = province.get("Ripartizione geografica(Maiuscolo)");
+				String ripgeoM = province.get("Ripartizione geografica Maiuscolo");
 				provincedb.get(3).add(ripgeoM);
 				
 				String ripgeo = province.get("Ripartizione geografica");
@@ -43,13 +43,13 @@ public class Provincia {
 				String codreg = province.get("Codice regione");
 				provincedb.get(5).add(codreg);
 				
-				String nuts2 = province.get("Codice NUTS2 2006 (a)");
+				String nuts2 = province.get("Codice NUTS2 2006 a");
 				provincedb.get(6).add(nuts2);
 				
-				String nuts210 = province.get("Codice NUTS2 2010 (a)");
+				String nuts210 = province.get("Codice NUTS2 2010 a");
 				provincedb.get(7).add(nuts210);
 				
-				String denregM = province.get("Denominazione regione(Maiuscolo)");
+				String denregM = province.get("Denominazione regione Maiuscolo");
 				provincedb.get(8).add(denregM);
 				
 				String denreg = province.get("Denominazione regione");
@@ -100,6 +100,8 @@ public class Provincia {
 		}
 		return risposta;
 	}
+
+
 	
 	public String getSiglaProvincia(String nome){
 		int i, j;
@@ -128,6 +130,34 @@ public class Provincia {
                 }
             }
         }
+
+        return risposta;
+    }
+
+    public String getNomeDaCodice(String codice){
+        String risposta ="";
+
+
+        for (int j=0; j<provincedb.get(12).size(); j++){
+            if (provincedb.get(12).get(j).equals(codice)) risposta = provincedb.get(13).get(j);
+        }
+
+        return risposta;
+    }
+
+    public String elencoComuni(String prov){
+        String risposta = "";
+
+
+            for (int j=0; j<provincedb.get(13).size(); j++){
+                if (provincedb.get(13).get(j).equals(prov)){
+                    String codice = provincedb.get(12).get(j);
+
+                    Comune comuni = new Comune();
+                    risposta = comuni.getTuttiComuni(codice);
+                }
+            }
+
 
         return risposta;
     }
