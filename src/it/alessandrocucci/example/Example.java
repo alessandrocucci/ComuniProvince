@@ -18,7 +18,7 @@ public class Example {
 
 
         String risposta1 = comune.getNomeProvincia(text);
-        System.out.println(text + "fa parte della provincia di " + risposta1);
+        System.out.println(text + " fa parte della provincia di " + risposta1);
         System.out.println();
         System.out.println("I comuni della provincia di " + risposta1 + " sono:");
         String comuni = provincia.elencoComuni(risposta1);

@@ -1,8 +1,4 @@
-Ripartizione geografica,Codice NUTS2 2010,Codice NUTS3 2010,Codice Regione,Codice Provincia,Codice Comune,"Codice Istat del Comune 
-(formato alfanumerico)","Codice Istat del Comune 
-(formato numerico)","Codice Istat del Comune a 103 province
-(formato numerico)","Codice Istat del Comune a 107 province
-(formato numerico)",Codice Catastale ,Solo denominazione in italiano,Solo denominazione in tedesco,Comune capoluogo di provincia,Zona altimetrica,Altitudine del centro (metri),Comune litoraneo,Comune Montano,Codice Sistema locale del lavoro 2001,Denominazione Sistema locale del lavoro 2001,Superficie territoriale totale (kmq) al 09/10/2011,Popolazione legale 2001 (21/10/2001),Popolazione legale 2011 (09/10/2011)
+Ripartizione geografica,Codice NUTS2 2010,Codice NUTS3 2010,Codice Regione,Codice Provincia,Codice Comune,Codice Istat del Comune formato alfanumerico,Codice Istat del Comune formato numerico,Codice Istat del Comune a 103 province formato numerico,Codice Istat del Comune a 107 province formato numerico,Codice Catastale ,Solo denominazione in italiano,Solo denominazione in tedesco,Comune capoluogo di provincia,Zona altimetrica,Altitudine del centro metri,Comune litoraneo,Comune Montano,Codice Sistema locale del lavoro 2001,Denominazione Sistema locale del lavoro 2001,Superficie territoriale totale kmq,Popolazione legale 2001,Popolazione legale 2011
 Nord-ovest,ITC1,ITC11,01,001, 001 ,001001,1001,1001,1001,A074,Agliè,,0,3, 315 ,0,NM,3,IVREA, 13,15 ,2.574,2.644
 Nord-ovest,ITC1,ITC11,01,001, 002 ,001002,1002,1002,1002,A109,Airasca,,0,5, 257 ,0,NM,4,PINEROLO, 15,74 ,3.554,3.819
 Nord-ovest,ITC1,ITC11,01,001, 003 ,001003,1003,1003,1003,A117,Ala di Stura,,0,1, 1.080 ,0,T,2,CIRIE', 46,33 ,479,462
